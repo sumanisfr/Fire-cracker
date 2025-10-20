@@ -20,8 +20,45 @@
     
   <body>
 
-    
-  <!-- SVG Spritesheet -->
+
+
+
+
+<div id="diwaliText" style="
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #f5d97a;
+  font-family: 'Russo One', sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  z-index: 9999;
+">
+  ✨ Happy Diwali ✨
+</div>
+
+<script>
+  const div = document.getElementById('diwaliText');
+  const colors = ['#FFD15C', '#FF8C00', '#FF6B6B', '#9B5DE5', '#00C9A7', '#FFB700'];
+
+  div.addEventListener('mouseenter', () => {
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+    div.style.transform = 'translateX(-50%) scale(1.2)';
+    div.style.color = randomColor;
+  });
+
+  div.addEventListener('mouseleave', () => {
+    div.style.transform = 'translateX(-50%) scale(1)';
+    div.style.color = '#f5d97a';
+  });
+</script>
+
+
 <div style="height: 0; width: 0; position: absolute; visibility: hidden;">
   <svg xmlns="http://www.w3.org/2000/svg">
     <symbol id="icon-play" viewBox="0 0 24 24">
