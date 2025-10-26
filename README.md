@@ -3,7 +3,7 @@
 Celebrate **Diwali** in a modern and eco-friendly way!  
 The **Firecracker Simulator** lets you enjoy the fun of bursting firecrackers **virtually** — with **realistic visuals and sounds**, customizable effects, and absolutely **zero pollution**! 🌿💥  
 
-🔗 **Live Demo:** [https://sumanisfr.github.io/Fire-cracker/](https://sumanisfr.github.io/Fire-cracker/)
+🔗 **Live Demo:** [https://sumanisfr.github.io/Fire-cracker/](https://sumanisfr.github.io/Fire-cracker/) 
 
 ---
 
